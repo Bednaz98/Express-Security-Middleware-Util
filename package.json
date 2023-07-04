@@ -1,0 +1,27 @@
+{
+  "name": "express-security-middleware-util",
+  "version": "1.0.0",
+  "description": "",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "jest",
+    "build": "tsc",
+    "publish": "npm i && npm run build && npm pack && npm publish"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Bednaz98/Express-Security-Middleware-Util.git"
+  },
+  "author": "Joshua Bednaz",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Bednaz98/Express-Security-Middleware-Util/issues"
+  },
+  "homepage": "https://github.com/Bednaz98/Express-Security-Middleware-Util#readme",
+  "devDependencies": {
+    "@types/express": "^4.17.17"
+  },
+  "peerDependencies": {
+    "express": "^4.18.2"
+  }
+}
